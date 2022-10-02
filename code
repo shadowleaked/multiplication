@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+	int x,p,n,i;
+	printf("Enter the number: ");
+	scanf("%d",&x);
+	printf("Enter the nth term: ");
+	scanf("%d",&n);
+	for(i=1;i<=n;i++)
+	{
+		p=x*i;
+		printf("\n%d ",x);
+		printf("X %d",i);
+		printf("= %d",p);
+	}
+}
